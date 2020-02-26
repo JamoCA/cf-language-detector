@@ -14,7 +14,7 @@ Install the JAR file to your existing JAVA path and restart the ColdFusion serve
 Instantiate the component:
 
 ```js
-    languageDetector = new languageDetector();
+    var languageDetector = new languageDetector();
 ```
 ### languageDetector.detect(text)
 
